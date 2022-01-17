@@ -15,3 +15,10 @@ npm start or yarn start
 
 
 ```
+
+
+### Point
+
+- custom window
+- custom buttons
+- all with some css
