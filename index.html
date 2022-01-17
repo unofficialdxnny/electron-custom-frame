@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./index.css" rel="stylesheet">
+    <title>Microsoft Store</title>
+  </head>
+  <body>
+
+    <main>
+      <button id="minimize">Minimize Window</button>
+      <button id="maximize">Maximize/Restore Window Size</button>
+      <button id="close">Close Window</button>
+    </main>
+
+
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
